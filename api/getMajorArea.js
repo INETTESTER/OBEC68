@@ -11,6 +11,6 @@ export function getMajorArea() {
   };
 
   const res = http.get(url, params);
-  console.log(res.body);
+  //console.log(res.body);
   return res;
 }
