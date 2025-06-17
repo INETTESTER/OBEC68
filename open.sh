@@ -6,8 +6,8 @@
 ##########################################################################
                      API="customerRegister" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1qBodI_1vrN7NLLRfqxLQl-LwSweZEKIfHW4qcoFnNGY/edit?gid=1610289956#gid=1610289956" 
-                     id="8"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="10000";            #จำนวนผู้ใช้งาน
+                     id="9"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     user="5000";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)

@@ -5,6 +5,7 @@ const data = new SharedArray('CustomerID', function () {
 });
 
 export function customerRegister(scenario) {
+  const cid = `${__VU}${__ITER}1`;
   const CustomerID = data[scenario.iterationInTest];
   const url = 'https://api-obec68.thaijobjob.com/api/customers/createRegister';
   const payload = JSON.stringify({
@@ -27,7 +28,7 @@ export function customerRegister(scenario) {
       Religion: 'เเอสกี้',
       Marry: 'โสด',
       birthDMY: '08-01-2539',
-      CustomerID: ''+CustomerID,
+      CustomerID: ''+cid,
       CusIDFrom: 'ขอนแก่น',
       CusIDIn: '08-01-2535',
       CusIDExpire: '08-01-2525',
