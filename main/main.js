@@ -17,9 +17,9 @@ import { searchPay } from '../api/searchPay.js';
 
 export default function () {    //เรียกใช้ API ใน export default function
 
-  response = getNewsByProvinceID();
+  //response = getNewsByProvinceID();
   //response = popup()
-  //response = customerRegister(scenario)
+  response = customerRegister(scenario)
   //response = getMajorArea()
   //response = searchPay()
   error_check(response);
